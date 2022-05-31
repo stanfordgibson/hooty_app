@@ -22,7 +22,7 @@ st.subheader("South Africa")
 
 
 # import contact_crime_geo
-contact_crime_geo = pd.read_csv('\Resources\contact_crime_geo.csv')
+contact_crime_geo = pd.read_csv('Resources/contact_crime_geo.csv')
 # create deep copy of the contact_crime_geo dataframe
 contact_crime_geo_copy = pd.DataFrame(columns = contact_crime_geo.columns, data = copy.deepcopy(contact_crime_geo.values))
 
